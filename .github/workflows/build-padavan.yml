@@ -44,7 +44,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: newifi3
+        TNAME: Newifi3
         KERNEL: 4.4
       run: |
         cd /opt/rt-n56u/trunk
